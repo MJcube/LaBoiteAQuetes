@@ -21,26 +21,26 @@ class personnage
         void Setcharisme(int val) { charisme = val; }
         int Getexperience() { return experience; }
         void Setexperience(int val) { experience = val; }
-        string Getname() { return name; }
-        void Setname(string val) { name = val; }
-        string GetfirstName() { return firstName; }
-        void SetfirstName(string val) { firstName = val; }
-        int GetArmorClass() { return ArmorClass; }
-        void SetArmorClass(int val) { ArmorClass = val; }
-        int GetmodStr() { return modStr; }
-        void SetmodStr(int val) { modStr = val; }
-        int GetmodDex() { return modDex; }
-        void SetmodDex(int val) { modDex = val; }
-        int GetmodCon() { return modCon; }
-        void SetmodCon(int val) { modCon = val; }
-        int GetmodInt() { return modInt; }
-        void SetmodInt(int val) { modInt = val; }
-        int GetmodWis() { return modWis; }
-        void SetmodWis(int val) { modWis = val; }
-        int GetmodCha() { return modCha; }
-        void SetmodCha(int val) { modCha = val; }
-        int GetmagicResist() { return magicResist; }
-        void SetmagicResist(int val) { magicResist = val; }
+        string Getnom() { return nom; }
+        void Setnom(string val) { nom = val; }
+        string Getprenom() { return prenom; }
+        void Setprenom(string val) { prenom = val; }
+        int GetclasseArmure() { return classeArmure; }
+        void SetclasseArmure(int val) { classeArmure = val; }
+        int GetmodFOR() { return modFOR; }
+        void SetmodFOR(int val) { modFOR = val; }
+        int GetmodDEX() { return modDEX; }
+        void SetmodDEX(int val) { modDEX = val; }
+        int GetmodCON() { return modCON; }
+        void SetmodCON(int val) { modCON = val; }
+        int GetmodINT() { return modINT; }
+        void SetmodINT(int val) { modINT = val; }
+        int GetmodSAG() { return modSAG; }
+        void SetmodSAG(int val) { modSAG = val; }
+        int GetmodCHA() { return modCHA; }
+        void SetmodCHA(int val) { modCHA = val; }
+        int GetresistanceMagique() { return resistanceMagique; }
+        void SetresistanceMagique(int val) { resistanceMagique = val; }
         int GetBMO() { return BMO; }
         void SetBMO(int val) { BMO = val; }
         int GetDMD() { return DMD; }
@@ -54,16 +54,16 @@ class personnage
         int sagesse;
         int charisme;
         int experience;
-        string name;
-        string firstName;
-        int ArmorClass;
-        int modStr;
-        int modDex;
-        int modCon;
-        int modInt;
-        int modWis;
-        int modCha;
-        int magicResist;
+        string nom;
+        string prenom;
+        int classeArmure;
+        int modFOR;
+        int modDEX;
+        int modCON;
+        int modINT;
+        int modSAG;
+        int modCHA;
+        int resistanceMagique;
         int BMO;
         int DMD;
 };
